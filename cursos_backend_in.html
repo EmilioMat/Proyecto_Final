@@ -15,21 +15,22 @@
   <!-- Incluye FontAwesome desde el CDN -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
+
   <!-- Customized Bootstrap Stylesheet -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Template Stylesheet -->
-  <link href="../styles/bootstrap.css" rel="stylesheet" />
+  <link href="styles/bootstrap.css" rel="stylesheet" />
 </head>
 
 <body>
   <header>
-    <!-- NAVIGATION BAR AND HOME -->
+    <!-- NAVBAR AND HOME-->
     <div class="container-fluid position-relative p-0">
       <nav id="navbar" class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <a href="/pagina_ingles/index_in.html" class="navbar-brand p-0">
+        <a href="index.html" class="navbar-brand p-0">
           <h1 class="text-primary">
-            <img src="../imagenes/DevMaster2.png" alt="Logo of our website">
+            <img src="imagenes/DevMaster2.png" alt="Logo of our website">
           </h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -37,96 +38,97 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
-            <a href="/pagina_ingles/index_in.html" class="nav-item nav-link">Home</a>
-            <a href="/pagina_ingles/sobreNosotros_in.html" class="nav-item nav-link">About Us</a>
+            <a href="index_in.html" class="nav-item nav-link">Home</a>
+            <a href="sobreNosotros_in.html" class="nav-item nav-link ">About Us</a>
             <div class="nav-item dropdown">
-              <a href="cursos.html" class="nav-link" data-bs-toggle="dropdown">
+              <a href="courses.html" class="nav-link" data-bs-toggle="dropdown">
                 <span class="dropdown-toggle">Courses</span>
               </a>
               <div class="dropdown-menu m-0">
-                <a href="/pagina_ingles/cursos_fullStack_in.html" class="dropdown-item">All Courses</a>
-                <a href="/pagina_ingles/curso_desarrolloWeb_in.html" class="dropdown-item active">Web Development</a>
-                <a href="/pagina_ingles/cursos_backend_in.html" class="dropdown-item">Back-End Development</a>
-                <a href="/pagina_ingles/cursos_frameworks_in.html" class="dropdown-item">Frameworks</a>
-                <a href="/pagina_ingles/cursos_software_in.html" class="dropdown-item">Software & Cloud Development</a>
+                <a href="cursos_fullStack_in.html" class="dropdown-item">All Courses</a>
+                <a href="curso_desarrolloWeb_in.html" class="dropdown-item">Web Development</a>
+                <a href="cursos_backend_in.html" class="dropdown-item active">Back-End Development</a>
+                <a href="cursos_frameworks_in.html" class="dropdown-item">Frameworks</a>
+                <a href="cursos_software_in.html" class="dropdown-item">Software & Cloud Development</a>
               </div>
             </div>
-            <a href="/pagina_ingles/contacto_in.html" class="nav-item nav-link">Contact</a>
+            <a href="contacto_in.html" class="nav-item nav-link">Contact</a>
             <!-- Selector de Idioma -->
             <div class="nav-item dropdown">
               <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                <img src="../imagenes/ingles.png" alt="Bandera Inglesa flag" width="40px" height="40px" class="me-2" />
+                <img src="imagenes/ingles.png" alt="Bandera Inglesa flag" width="40px" height="40px" class="me-2" />
               </a>
               <div class="dropdown-menu m-0">
-                <a href="/pagina_español/curso_desarrolloWeb.html" class="dropdown-item">
-                  <img src="../imagenes/español.png" alt="Bandera Española flag" width="40px" height="40px"
+                <a href="cursos_backend.html" class="dropdown-item">
+                  <img src="imagenes/español.png" alt="Bandera Española flag" width="40px" height="40px"
                     class="me-2" />
                   Español
                 </a>
-                <a href="/pagina_ingles/curso_desarrolloWeb_in.html" class="dropdown-item">
-                  <img src="../imagenes/ingles.png" alt="Bandera Inglesa flag" width="30px" height="30px"
+                <a href="cursos_backend_in.html" class="dropdown-item">
+                  <img src="imagenes/ingles.png" alt="Bandera Inglesa flag" width="30px" height="30px"
                     class="me-2" />
                   Inglés
                 </a>
               </div>
             </div>
           </div>
-          <!-- Search added -->
+          </div>
+          <!-- Added search bar -->
           <form class="d-flex ms-3">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-primary" type="submit">Search</button>
           </form>
-          <a href="/pagina_ingles/login_in.html" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0 ms-3"
+          <a href="index_in.html" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0 ms-3"
             data-bs-toggle="tooltip" title="Log in to your account">
             <i class="fa-solid fa-right-to-bracket"></i>
           </a>
         </div>
       </nav>
-  
-      <!-- HEADER START -->
+
+      <!--HEADER START-->
       <div class="container-fluid bg-secondary">
         <div class="container text-center py-5" style="max-width: 900px">
           <h1 class="text-white display-4 mb-4 wow fadeInDown mt-80" data-wow-delay="0.1s">Our Courses</h1>
           <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-            <li class="breadcrumb-item"><a href="/pagina_ingles/index_in.html">Home</a></li>
-            <li class="breadcrumb-item"><a href="/pagina_ingles/index_in.html#cursos">Courses</a></li>
-            <li class="breadcrumb-item active text-primary">Web Development</li>
+            <li class="breadcrumb-item"><a href="index_in.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="index_in.html#cursos">Courses</a></li>
+            <li class="breadcrumb-item active text-primary">Back-End Development</li>
           </ol>
         </div>
       </div>
-      <!-- HEADER END -->
+      <!--HEADER END-->
     </div>
-    <!-- END NAVIGATION BAR AND HOME -->
+    <!--END NAVBAR AND HOME-->
   </header>
-  
+
 
   <main>
-    <!--INICIO NUESTROS CURSOS-->
+    <!--START OUR COURSES-->
     <div class="container-fluid service pb-5 mt-5">
       <div class="container pb-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-          <h2 class="text-primary">Nuestros Cursos</h2>
-          <h3 class="display-5 mb-4">Domina el Arte del Desarrollo Web</h3>
+          <h2 class="text-primary">Our Courses</h2>
+          <h3 class="display-5 mb-4">Become a Back-End Master</h3>
           <p class="mb-0">
-            Descubre todo lo que necesitas para crear sitios y aplicaciones web increíbles. Desde los
-            fundamentos hasta técnicas avanzadas, te guiamos paso a paso para convertirte en un desarrollador
-            web profesional.
+            Learn to build the logic and structure behind web applications. From databases
+            to APIs and servers, we teach you everything you need to master back-end development like a
+            professional.
           </p>
         </div>
-        <!-- Ajustamos todos los cursos en un solo row -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center">
+        <!-- Courses dynamically organized in a single row -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 g-4 justify-content-center">
           <div class="col wow fadeInUp" data-wow-delay="0.2s">
             <div class="service-item">
               <div class="service-img-web">
-                <img src="../imagenes/cursos-web/html5.webp" class="img-fluid rounded-top w-100" alt="HTML">
+                <img src="imagenes/cursos-backend/phyton.webp" class="img-fluid rounded-top w-100" alt="Python">
               </div>
               <div class="rounded-bottom p-4">
-                <a href="#" class="h4 d-inline-block mb-4">HTML</a>
-                <p class="mb-4">Construye la base de cualquier sitio web de forma sencilla.</p>
+                <a href="#" class="h4 d-inline-block mb-4">Python</a>
+                <p class="mb-4">Master back-end development with Python. Build secure applications.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="bottom"
-                  data-bs-custom-class="custom-popover" data-bs-title="¡Estamos trabajando!"
-                  data-bs-content="Este curso aún está en desarrollo. ¡Pronto estará disponible!">
-                  Acceder al curso
+                  data-bs-custom-class="custom-popover" data-bs-title="We're working on it!"
+                  data-bs-content="This course is still under development. It will be available soon!">
+                  Access the course
                 </button>
               </div>
             </div>
@@ -134,15 +136,15 @@
           <div class="col wow fadeInUp" data-wow-delay="0.4s">
             <div class="service-item">
               <div class="service-img-web">
-                <img src="../imagenes/cursos-web/css.webp" class="img-fluid rounded-top w-100" alt="CSS">
+                <img src="imagenes/cursos-backend/nodejs.webp" class="img-fluid rounded-top w-100" alt="Node.js">
               </div>
               <div class="rounded-bottom p-4">
-                <a href="#" class="h4 d-inline-block mb-4">CSS</a>
-                <p class="mb-4">Transforma páginas simples en diseños increíbles y únicos.</p>
+                <a href="#" class="h4 d-inline-block mb-4">Node.js</a>
+                <p class="mb-4">Learn to develop fast and efficient applications with Node.js.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="bottom"
-                  data-bs-custom-class="custom-popover" data-bs-title="¡Estamos trabajando!"
-                  data-bs-content="Este curso aún está en desarrollo. ¡Pronto estará disponible!">
-                  Acceder al curso
+                  data-bs-custom-class="custom-popover" data-bs-title="We're working on it!"
+                  data-bs-content="This course is still under development. It will be available soon!">
+                  Access the course
                 </button>
               </div>
             </div>
@@ -150,15 +152,15 @@
           <div class="col wow fadeInUp" data-wow-delay="0.6s">
             <div class="service-item">
               <div class="service-img-web">
-                <img src="../imagenes/cursos-web/tailwind.webp" class="img-fluid rounded-top w-100" alt="Tailwind">
+                <img src="imagenes/cursos-backend/ruby.webp" class="img-fluid rounded-top w-100" alt="Ruby on Rails">
               </div>
               <div class="rounded-bottom p-4">
-                <a href="#" class="h4 d-inline-block mb-4">Tailwind CSS</a>
-                <p class="mb-4">Diseña rápido y moderno con clases listas para usar.</p>
+                <a href="#" class="h4 d-inline-block mb-4">Ruby on Rails</a>
+                <p class="mb-4">Build elegant and robust applications with Ruby on Rails.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="bottom"
-                  data-bs-custom-class="custom-popover" data-bs-title="¡Estamos trabajando!"
-                  data-bs-content="Este curso aún está en desarrollo. ¡Pronto estará disponible!">
-                  Acceder al curso
+                  data-bs-custom-class="custom-popover" data-bs-title="We're working on it!"
+                  data-bs-content="This course is still under development. It will be available soon!">
+                  Access the course
                 </button>
               </div>
             </div>
@@ -166,15 +168,15 @@
           <div class="col wow fadeInUp" data-wow-delay="0.8s">
             <div class="service-item">
               <div class="service-img-web">
-                <img src="../imagenes/cursos-web/Bootstrap.webp" class="img-fluid rounded-top w-100" alt="Bootstrap">
+                <img src="imagenes/cursos-backend/java.webp" class="img-fluid rounded-top w-100" alt="Java">
               </div>
               <div class="rounded-bottom p-4">
-                <a href="#" class="h4 d-inline-block mb-4">Bootstrap</a>
-                <p class="mb-4">Crea sitios responsive elegantes en tiempo récord.</p>
+                <a href="#" class="h4 d-inline-block mb-4">Java</a>
+                <p class="mb-4">Create secure, high-performance solutions using Java.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="bottom"
-                  data-bs-custom-class="custom-popover" data-bs-title="¡Estamos trabajando!"
-                  data-bs-content="Este curso aún está en desarrollo. ¡Pronto estará disponible!">
-                  Acceder al curso
+                  data-bs-custom-class="custom-popover" data-bs-title="We're working on it!"
+                  data-bs-content="This course is still under development. It will be available soon!">
+                  Access the course
                 </button>
               </div>
             </div>
@@ -182,15 +184,15 @@
           <div class="col wow fadeInUp" data-wow-delay="1.0s">
             <div class="service-item">
               <div class="service-img-web">
-                <img src="../imagenes/cursos-web/javaScript.webp" class="img-fluid rounded-top w-100" alt="JavaScript">
+                <img src="imagenes/cursos-backend/php.png" class="img-fluid rounded-top w-100" alt="PHP">
               </div>
               <div class="rounded-bottom p-4">
-                <a href="#" class="h4 d-inline-block mb-4">JavaScript</a>
-                <p class="mb-4">Añade interactividad y dinamismo a tus proyectos web.</p>
+                <a href="#" class="h4 d-inline-block mb-4">PHP</a>
+                <p class="mb-4">Develop dynamic applications and databases easily with PHP.</p>
                 <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="bottom"
-                  data-bs-custom-class="custom-popover" data-bs-title="¡Estamos trabajando!"
-                  data-bs-content="Este curso aún está en desarrollo. ¡Pronto estará disponible!">
-                  Acceder al curso
+                  data-bs-custom-class="custom-popover" data-bs-title="We're working on it!"
+                  data-bs-content="This course is still under development. It will be available soon!">
+                  Access the course
                 </button>
               </div>
             </div>
@@ -198,8 +200,9 @@
         </div>
       </div>
     </div>
-    <!--FIN NUESTROS CURSOS-->
+    <!--END OUR COURSES-->
   </main>
+
 
   <footer>
     <!-- START FOOTER -->
@@ -210,7 +213,7 @@
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="footer-item">
               <a href="index.html" class="p-0">
-                <img src="../imagenes/DevMaster2.png" alt="Logo of our website" width="300px" />
+                <img src="imagenes/DevMaster2.png" alt="Logo of our website" width="300px" />
               </a>
               <p class="text-white mb-4">
                 Leader in software development. Focused on training future professionals with the skills necessary to
@@ -326,8 +329,8 @@
   </footer>
 
   <!-- Template Javascript -->
-  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../bootstrap/js/script.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/js/script.js"></script>
 
 </body>
 
