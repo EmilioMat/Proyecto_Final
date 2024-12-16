@@ -20,7 +20,7 @@ $enable-negative-margins: true;
 
 @import "../bootstrap/scss/bootstrap.scss";
 
-//Botón volver al principio
+/*** INICI DE BOTON VOLVER PARA ARRIBA***/
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -28,8 +28,9 @@ $enable-negative-margins: true;
     transition: 0.5s;
     z-index: 99;
 }
+/*** FIN DE BOTON VOLVER PARA ARRIBA***/
 
-// Estilos de los botones en la pagina
+/*** INICIO ESTILOS BOTONES***/
 .btn {
     font-weight: 600;
     transition: .5s;
@@ -91,11 +92,8 @@ $enable-negative-margins: true;
     color: var(--bs-white);
     background: var(--bs-primary);
 }
+/*** FIN ESTILOS BOTONES***/
 
-// Fin Estilos de los botones en la pagina
-
-
-// Topbar Start
 .topbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -121,7 +119,7 @@ $enable-negative-margins: true;
     opacity: 1;
 }
 
-// Barra de navegación
+/*** INICIO BARRA DE NAVEGACION***/
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
     position: relative;
@@ -276,6 +274,7 @@ $enable-negative-margins: true;
         height: 12px;
     }
 }
+/*** FIN BARRA DE NAVEGACION***/
 
 /*** INICIO CARRUSEL CABECERA***/
 .header-carousel .header-carousel-item img {
@@ -461,12 +460,7 @@ $enable-negative-margins: true;
 
 /*** FIN COPYRIGHT(FOOTER) ***/
 
-/***INICIO ESTILOS INICIO DE SESION/REGISTRARSE***/
-
-/***FIN ESTILOS INICIO DE SESION/REGISTRARSE***/
-
-
-/*** Service Start ***/
+/*** INICIO DE LOS SERVICIOS***/
 .service .service-item {
     background: var(--bs-light);
     border-radius: 10px;
@@ -496,13 +490,11 @@ $enable-negative-margins: true;
 .service-img img {
     width: 100%;
     height: 180px;
-    /* Ajusta la altura según lo que necesites */
     object-fit: cover;
 }
 
 .service .service-item .rounded-bottom {
     min-height: 250px;
-    /* Ajusta según sea necesario */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -515,24 +507,22 @@ $enable-negative-margins: true;
 /* Cambiar el color de los enlaces en el breadcrumb a blanco */
 .breadcrumb-item a {
     color: white;
-    /* Hacer los enlaces blancos */
 }
 
 /* Cambiar el color del enlace activo (la página actual) en el breadcrumb */
 .breadcrumb-item.active {
     color: #007bff;
-    /* Color azul para el enlace activo */
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: blue; /* Cambia el color de los iconos */
+    background-color: blue;
   }
-
-  
-
+/*** FIN DE LOS SERVICIOS***/
 
 
-/*** Team Start ***/
+
+
+/*** INICIO DE NUESTRO EQUIPO***/
 .team .team-item {
     position: relative;
     padding: 0 25px 25px 25px;
@@ -637,8 +627,8 @@ $enable-negative-margins: true;
     color: var(--bs-primary);
     background: var(--bs-dark);
 }
+/*** FIN DE NUESTRO EQUIPO***/
 
-/*** Team End ***/
 .cuerpo {
     width: 100%;
     max-width: 600px;
